@@ -28,7 +28,8 @@ python etl.py
 
 ## Schema
 
-The schema of our database is a star schema. It consist of a fact table `songplays` that references four dimension tables: `artists`, `users`, `song`, `time`. It allows to simplifie querries and makes aggregations fast.
+The schema of our database is a star schema. It consist of a fact table `songplays` that references four dimension tables: `artists`, `users`, `song`, `time`. It allows to simplifie querries and makes aggregations fast. The ER diagram of our dimensional data warehouse is shown in the figure below.
+![ER diagram](er_diagram.png)
 
 ## ETL
 
