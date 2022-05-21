@@ -39,6 +39,7 @@ The process is rather simple, we extract the data from the json files and put th
 
 Once our data warehouse is populated with data, we can go and query it to get analitical insights.
 For example, the query below returns the Top 3 streamed songs during november 2018:
+
 **Query**
 ```sql
 SELECT 
